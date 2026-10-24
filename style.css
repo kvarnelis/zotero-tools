@@ -13,7 +13,7 @@ a{color:var(--link);text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
 a:focus-visible{outline:2px solid var(--link);outline-offset:4px}
 .links{display:flex;flex-wrap:wrap;gap:8px 26px;font-size:14px}
-#installation{border-top:1px solid var(--rule);padding-top:26px;margin-top:4px}
+#installation{border-top:1px solid var(--rule);padding:26px 0 16px;margin-top:4px}
 ol{padding-left:24px;margin:12px 0 18px}li{padding-left:3px;margin-bottom:7px}
 code{font-size:.95em}
 footer{border-top:1px solid var(--rule);margin-top:30px;padding-top:20px;font-size:13px;color:var(--secondary)}footer p{margin-top:10px;margin-bottom:0}

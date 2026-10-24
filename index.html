@@ -16,50 +16,57 @@
     <p>Five Zotero plugins and Book Helper. Install each separately.</p>
     <p>The plugins target Zotero 9.x and 10.0.x on macOS. See each repository for setup requirements and testing details.</p>
   </header>
+  <section id="installation" aria-labelledby="installation-title">
+    <h2 id="installation-title">Install a Zotero plugin</h2>
+    <p>An <code>.xpi</code> file contains a Zotero plugin. The plugin runs inside Zotero rather than as a separate Mac app. Do not unzip the file.</p>
+    <ol>
+      <li>Use a <strong>Download plugin (.xpi)</strong> link below and save the file to your Mac.</li>
+      <li>Open Zotero. In the menu bar, choose <strong>Tools → Plugins</strong>.</li>
+      <li>Click the gear button at the top of the Plugins window, choose <strong>Install Add-on From File…</strong>, and select the downloaded <code>.xpi</code> file. You can also drag the file into the Plugins window.</li>
+      <li>Confirm the installation if prompted, then restart Zotero.</li>
+      <li>Complete the setup listed under that plugin below.</li>
+    </ol>
+    <p><a href="https://www.zotero.org/support/plugins">Zotero’s plugin installation guide</a></p>
+  </section>
   <section id="tools" aria-label="Tools">
     <article aria-labelledby="praetor-title">
       <h2 id="praetor-title">Praetor</h2>
       <p>Use Codex or Claude Code in Zotero to ask about items, search attachment text, draft notes, and review proposed library changes.</p>
-      <p class="requirements">Requires an installed, signed-in Codex or Claude Code CLI. Requests go to the selected provider.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/zotero-praetor/releases/latest/download/zotero-praetor.xpi" aria-label="Download Praetor XPI">Download XPI</a><a href="https://github.com/kvarnelis/zotero-praetor">Source and setup</a></p>
+      <p class="requirements">Before use, install and sign in to <a href="https://learn.chatgpt.com/docs/codex/cli">Codex CLI</a> or <a href="https://code.claude.com/docs/en/quickstart">Claude Code</a>, a separate command-line program. Open Zotero’s <strong>AI</strong> pane, choose that program, and select <strong>Check Login</strong>. The setup instructions list the required program locations. Zotero’s local connection is enabled by default; the setup instructions explain how to restore it if it has been disabled.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/zotero-praetor/releases/latest/download/zotero-praetor.xpi" aria-label="Download Praetor plugin (.xpi)">Download plugin (.xpi)</a><a href="https://github.com/kvarnelis/zotero-praetor#setup">Setup instructions</a><a href="https://github.com/kvarnelis/zotero-praetor">Source code</a></p>
     </article>
     <article aria-labelledby="notebook-title">
       <h2 id="notebook-title">NotebookLM Pane</h2>
       <p>Open Google NotebookLM in Zotero’s item pane and prepare local PDFs for its upload dialog.</p>
-      <p class="requirements">Requires a Google account and internet access. The final file-upload step is manual.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/zotero-notebooklm-pane/releases/latest/download/zotero-notebooklm-pane.xpi" aria-label="Download NotebookLM Pane XPI">Download XPI</a><a href="https://github.com/kvarnelis/zotero-notebooklm-pane">Source and setup</a></p>
+      <p class="requirements">After installation, open the NotebookLM pane and sign in to your Google account there. To add a PDF, right-click an item and choose <strong>Send PDF to NotebookLM</strong>, then complete the upload in NotebookLM’s file dialog. Internet access is required.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/zotero-notebooklm-pane/releases/latest/download/zotero-notebooklm-pane.xpi" aria-label="Download NotebookLM Pane plugin (.xpi)">Download plugin (.xpi)</a><a href="https://github.com/kvarnelis/zotero-notebooklm-pane#setup">Setup instructions</a><a href="https://github.com/kvarnelis/zotero-notebooklm-pane">Source code</a></p>
     </article>
     <article aria-labelledby="reader-title">
       <h2 id="reader-title">Page View</h2>
       <p>Add single-page reading, two-page spreads, page fitting, and focus mode to Zotero’s PDF reader.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/zotero-page-view/releases/latest/download/zotero-page-view.xpi" aria-label="Download Page View XPI">Download XPI</a><a href="https://github.com/kvarnelis/zotero-page-view">Source and instructions</a></p>
+      <p class="requirements">No additional software or account is needed. Use the PDF reader’s view buttons or <strong>Tools → Page View</strong>.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/zotero-page-view/releases/latest/download/zotero-page-view.xpi" aria-label="Download Page View plugin (.xpi)">Download plugin (.xpi)</a><a href="https://github.com/kvarnelis/zotero-page-view#controls">Setup instructions</a><a href="https://github.com/kvarnelis/zotero-page-view">Source code</a></p>
     </article>
     <article aria-labelledby="pane-title">
       <h2 id="pane-title">Compact Pane</h2>
       <p>Show a reduced set of metadata fields by item type, expand the full list when needed, and copy attachment paths from the item menu.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/zotero-compact-pane/releases/latest/download/zotero-compact-pane.xpi" aria-label="Download Compact Pane XPI">Download XPI</a><a href="https://github.com/kvarnelis/zotero-compact-pane">Source and instructions</a></p>
+      <p class="requirements">No additional software or account is needed. Select an item and use the compact/expanded field control in its information pane.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/zotero-compact-pane/releases/latest/download/zotero-compact-pane.xpi" aria-label="Download Compact Pane plugin (.xpi)">Download plugin (.xpi)</a><a href="https://github.com/kvarnelis/zotero-compact-pane#use">Setup instructions</a><a href="https://github.com/kvarnelis/zotero-compact-pane">Source code</a></p>
     </article>
     <article aria-labelledby="theme-title">
       <h2 id="theme-title">Quiet Theme</h2>
       <p>Apply a compact interface stylesheet and switch Zotero’s native light or dark appearance.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/zotero-quiet-theme/releases/latest/download/zotero-quiet-theme.xpi" aria-label="Download Quiet Theme XPI">Download XPI</a><a href="https://github.com/kvarnelis/zotero-quiet-theme">Source and instructions</a></p>
+      <p class="requirements">Open <strong>View → Quiet Theme</strong> to choose an appearance or enable the compact overlay. Restart Zotero after enabling or disabling the overlay.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/zotero-quiet-theme/releases/latest/download/zotero-quiet-theme.xpi" aria-label="Download Quiet Theme plugin (.xpi)">Download plugin (.xpi)</a><a href="https://github.com/kvarnelis/zotero-quiet-theme#use">Setup instructions</a><a href="https://github.com/kvarnelis/zotero-quiet-theme">Source code</a></p>
     </article>
     <article aria-labelledby="book-title">
       <h2 id="book-title">Book Helper</h2>
       <p>Identify and rename PDF and DRM-free EPUB books, review their metadata, and optionally import them into Zotero.</p>
-      <p class="requirements">A separate Mac application. Requires macOS 13 or later on Apple silicon. Zotero must be open for import.</p>
-      <p class="links"><a href="https://github.com/kvarnelis/book-helper/releases/download/v1.0.1/Book-Helper-1.0.1-arm64.dmg" aria-label="Download Book Helper DMG for Apple silicon Macs">Download DMG</a><a href="https://github.com/kvarnelis/book-helper">Source and setup</a></p>
+      <p class="requirements">A separate Mac application for macOS 13 or later on Apple silicon. Download the <code>.dmg</code> disk image, open it, and drag Book Helper to Applications. Open the app from Applications. Keep Zotero open if you want to import books into it.</p>
+      <p class="links"><a href="https://github.com/kvarnelis/book-helper/releases/download/v1.0.1/Book-Helper-1.0.1-arm64.dmg" aria-label="Download Book Helper DMG for Apple silicon Macs">Download Mac app (.dmg)</a><a href="https://github.com/kvarnelis/book-helper#use">Setup instructions</a><a href="https://github.com/kvarnelis/book-helper">Source code</a></p>
     </article>
   </section>
-  <section id="installation" aria-labelledby="installation-title">
-    <h2 id="installation-title">Installation</h2>
-    <ol>
-      <li>Download the plugin’s <code>.xpi</code> file.</li>
-      <li>In Zotero’s Add-ons Manager, choose <strong>Install Add-on From File…</strong> and select the file.</li>
-      <li>Restart Zotero and follow the plugin’s setup instructions.</li>
-    </ol>
-    <p>For Book Helper, open the DMG and drag the app to Applications.</p>
-  </section>
+
 </main>
 <footer><a href="https://github.com/kvarnelis/zotero-tools">Page source</a><p>These projects are not affiliated with Zotero or Google.</p></footer>
 </body>
